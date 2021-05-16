@@ -118,6 +118,11 @@
   margin-top: 30px;
 }
 
+.section-1__left button:hover {
+  color: #2d2640;
+  background-color: white;
+}
+
 .section-1__right {
   position: relative;
   top: 150px;
@@ -172,6 +177,11 @@
   color: white;
   padding: 10px 20px;
   font-size: 20px;
+}
+
+.section-2__footer a:hover {
+  color: #2d2640;
+  background-color: white;
 }
 
 .footer {
