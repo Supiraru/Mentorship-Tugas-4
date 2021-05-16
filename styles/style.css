@@ -59,6 +59,14 @@
   padding: 10px 20px;
 }
 
+.border:hover {
+  background-color: #2d2640;
+}
+
+.border:hover a {
+  color: white;
+}
+
 .border-less {
   border: none;
   padding: 10px 20px;
@@ -80,14 +88,6 @@
 .nav__right li a {
   text-decoration: none;
   color: black;
-}
-
-.nav__right li:hover {
-  background-color: #2d2640;
-}
-
-.nav__right li:hover a {
-  color: white;
 }
 
 .section-1 {

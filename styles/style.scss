@@ -49,6 +49,12 @@ $Very-Light-Gray: hsl(0, 0%, 98%);
 .border{
     border: 2px solid black;
     padding: 10px 20px;
+    &:hover{
+        background-color: $Dark-Violet;
+        a{
+            color: white;
+        }
+    }
 }
 
 .border-less{
@@ -68,12 +74,7 @@ $Very-Light-Gray: hsl(0, 0%, 98%);
                 text-decoration: none;
                 color: black;
             }
-            &:hover{
-                background-color: $Dark-Violet;
-                a{
-                    color: white;
-                }
-            }
+            
         }
     }
 }
